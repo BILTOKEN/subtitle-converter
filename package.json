@@ -1,0 +1,15 @@
+{
+  "name": "subtitle-converter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Free in-browser subtitle converter: SRT, VTT, TXT and LRC.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
