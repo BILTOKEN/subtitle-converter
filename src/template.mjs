@@ -173,6 +173,7 @@ ${is404 ? '' : `<meta property="og:url" content="${canonical}">`}
 ${verify}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="${assets.css}">
+<script defer src="https://site-dashboard-iota.vercel.app/t.js" data-site="subtitle-converter-jade"></script>
 ${is404 ? '' : faqJsonLd(page)}
 </head>
 <body>
